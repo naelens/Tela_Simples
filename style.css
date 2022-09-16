@@ -1,0 +1,82 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: antiquewhite;
+    font-family: Georgia, 'Times New Roman', Times, serif; 
+}
+
+main {
+    display: flex;
+    justify-content: center; 
+}
+
+.mainCoffee {
+    padding: 15px;
+    width: 80px;
+    border-radius: 50%;
+}
+
+.conteudoItems {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    gap: 25px;
+}
+
+.conteudoCoffee {
+    padding: 30px;
+    background-color: #E3A169;
+    height: 320px;
+    border: 3px solid #f0a461;
+    border-radius: 10px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+}
+
+img {
+    width: 180px;
+    border-radius: 10px;
+}
+
+p {
+    text-align: center;
+    margin: 10px 0 10px 0;
+    color: #996515;
+    font-size: 18px;
+}
+
+.conteudoCoffee > a {
+    text-decoration: none;
+    color: #ffd5b0;
+    background-color: #c1610c;
+    margin: 10px 0 0 0 0;
+    padding: 10px;
+    border-radius: 30px;
+}
+
+#btn {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    width: 100px;
+    margin: 0 auto;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+}
+
+#btn:hover {
+    background-color: #c36d21;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    margin: 40px 0 0 0;
+}
+
+i {
+    font-size: 20PX;
+    margin: 10px;
+    color: #996515;   
+}
